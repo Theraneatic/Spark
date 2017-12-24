@@ -1,0 +1,31 @@
+{
+  "name": "spark",
+  "version": "0.0.1",
+  "description": "A multifunctional bot with several tools that allow for an easier and moe in depth usage of Discord.",
+  "main": "spark.js",
+  "dependencies": {
+    "chalk": "^2.3.0",
+    "discord.js": "^11.2.1",
+    "humanize": "^0.0.9",
+    "performance-now": "^2.1.0",
+    "pretty-bytes": "^4.0.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "ping"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Theraneatic/Spark.git"
+  },
+  "keywords": [
+    "discord",
+    "bot"
+  ],
+  "author": "Ghoul#4058",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Theraneatic/Spark/issues"
+  },
+  "homepage": "https://github.com/Theraneatic/Spark#readme"
+}
