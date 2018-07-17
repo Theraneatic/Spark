@@ -1,0 +1,8 @@
+{
+    "name": "Spark",
+    "token": "your-token-here",
+    "oID": "your-id-here",
+    "prefix": "chosen-prefix-here",
+    "version": "1.0.0",
+    "dGame": "your-game-message-here"
+}
