@@ -3,6 +3,6 @@
     "token": "your-token-here",
     "oID": "your-id-here",
     "prefix": "chosen-prefix-here",
-    "version": "1.0.0",
+    "version": "1.0.2",
     "dGame": "your-game-message-here"
 }
