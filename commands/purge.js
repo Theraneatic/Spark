@@ -3,8 +3,6 @@ const human = require('humanize');
 exports.run = (client, message, args) => {
   if (message.author.bot) return;
   if (!message.guild) return;
-  if (!client.hasPermission("MANAGE_MESSAGES")) return;
-  if (client.hasPermission("MANAGE_MESSAGES")) {
     if (!message.member.hasPermission("MANAGE_MESSAGES") && message.author.id !== n.oID) {
       message.channel.send("You are missing the permission(s): Manage Messages.");
     } else {
@@ -13,5 +11,4 @@ exports.run = (client, message, args) => {
         message.channel.bulkDelete(++mNumRem);
         message.channel.send(`Deleted ${--mNumRem} messages.`);
       }
-  }
 }
