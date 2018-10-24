@@ -4,7 +4,7 @@ const human = require('humanize');
 exports.run = (client, message, args) => {
   if (message.author.bot) return;
   if (!message.guild) return;
-  if (!message.member.hasPermission("BAN_MEMBERS") && message.author.id !== n.oID) {
+  if (!message.member.hasPermission("BAN_MEMBERS") || message.author.id !== n.oID) {
     message.channel.send("You are missing the permission(s): Ban Members.");
   } else {
     let time = new Date();
