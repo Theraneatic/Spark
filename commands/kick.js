@@ -4,7 +4,6 @@ const human = require('humanize');
 exports.run = (client, message, args) => {
   if (message.author.bot) return;
   if (!message.guild) return;
-  if (!client.hasPermission("KICK_MEMBERS")) return;
   if (!message.member.hasPermission("KICK_MEMBERS") && message.author.id !== n.oID) {
     message.channel.send("You are missing the permission(s): Kick Members.");
   } else {
